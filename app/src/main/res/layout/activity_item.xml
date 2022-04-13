@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".Item_Activity">
+
+    <ImageView
+        android:id="@+id/item_image_display"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:padding="10dp"/>
+
+    <TextView
+        android:id="@+id/item_text_display"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:textSize="20sp"/>
+
+    <LinearLayout
+        android:layout_toRightOf="@id/item_image_display"
+        android:layout_marginTop="70dp"
+        android:id="@+id/item_cart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/minus_button"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:text="-"
+            android:textColor="#FFFFFF"
+            android:textSize="25sp"/>
+
+        <TextView
+            android:id="@+id/item_quantity"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:textAlignment="center"
+            android:textSize="25sp"/>
+
+        <Button
+            android:id="@+id/plus_button"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:text="+"
+            android:textColor="#FFFFFF"
+            android:textSize="25sp"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/add_to_cart_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="124dp"
+        android:text="Add to CART"
+        android:layout_below="@id/item_cart"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

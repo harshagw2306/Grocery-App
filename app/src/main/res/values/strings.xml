@@ -1,0 +1,196 @@
+<resources>
+    <string name="app_name">Grocery App</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_sub_list">SubList</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string-array name="sub_list_category_atta">
+        <item>SOOJI RAVA</item>
+        <item>MAIDA</item>
+        <item>DALIYA BARIK</item>
+        <item>DALIYA MOTA</item>
+        <item>SOYA BADI</item>
+        <item>AATA [ASHIRWAD]</item>
+        <item>AATA [U.P.S]</item>
+        <item>AATA [KANA]</item>
+        <item>MOTA AATA</item>
+        <item>CHAVAL AATA</item>
+        <item>BESAN</item>
+        <item>MOTA BESAN</item>
+        <item>MAKKE AATA</item>
+        <item>BAJRI AATA</item>
+        <item>JAWAER AATA </item>
+        <item>MOTHA MOOGER AATA</item>
+        <item>JOO AATA</item>
+        <item>MISHE ROTI AATA</item>
+        <item>URAD AATA</item>
+        <item>MULTIGRAIN AATA</item>
+        <item>RAGI AATA</item>
+        <item>SOYABEAN AATA</item>
+    </string-array>
+
+    <string-array name="sub_list_category_ghee">
+        <item>SARAS COW GHEE</item>
+        <item>GOVARDHAN GHEE (1 LTR)</item>
+        <item>GOVARDHAN GHEE (10 LTR)</item>
+        <item>FORTUNE REFINED</item>
+        <item>MAHAKOSH REFINED</item>
+        <item>OLIVE OIL (1 LTR)</item>
+        <item>OLIVE OIL (5 LTR)</item>
+    </string-array>
+
+    <string-array name="sub_list_category_rava">
+        <item>UPMA RAVA</item>
+        <item>SUJI [RAVA]</item>
+        <item>BADAM BURA [RAVA]</item>
+        <item>PISTA BURA [RAVA]</item>
+        <item>DALIYA [BATE]</item>
+    </string-array>
+
+    <string-array name="sub_list_category_vrat_atta">
+        <item>KUTTU AATA</item>
+        <item>SINGHARA AATA</item>
+        <item>RAJGIRI AATA</item>
+        <item>SWAMINARAYAN AATA</item>
+    </string-array>
+
+    <string-array name="sub_list_category_rice">
+        <item>RICE BASMATI</item>
+        <item>RICE KANKEE</item>
+        <item>RICE TIBAR</item>
+        <item>RICE PERMAL</item>
+        <item>DOUBLE CHABI RICH</item>
+        <item>RICH SELLA</item>
+        <item>RICH MINI MOGER</item>
+        <item>RAI BLACK</item>
+        <item>RAI YELLOW</item>
+        <item>POHA</item>
+        <item>GOTA</item>
+    </string-array>
+
+    <string-array name="sub_list_category_dal">
+        <item>DAL MIX</item>
+        <item>TOOR DAL</item>
+        <item>MOONG SABUT</item>
+        <item>MOONG MOGAR DAL</item>
+        <item>MOONG CHILKA DAL</item>
+        <item>CHANA DAL</item>
+        <item>MASOOR SABUT</item>
+        <item>MASOOR DAL</item>
+        <item>URAD SABUT</item>
+        <item>URAD CHILKA</item>
+        <item>URAD MOGAR</item>
+        <item>MOTH SABUT</item>
+        <item>MOTH CHILKA</item>
+        <item>MOTH MOGAR</item>
+    </string-array>
+
+    <string-array name="sub_list_category_pulse">
+        <item>RAJMA RED [BADA]</item>
+        <item>RAJMA RED [CHOTA]</item>
+        <item>RAJMA CHITRA</item>
+        <item>KABULI CHANA [CHOTA]</item>
+        <item>KABULI CHANA [BADA]</item>
+        <item>CHANA KALA [CHOTA]</item>
+        <item>CHANA KALA [BADA]</item>
+        <item>CHAWALA LARGE</item>
+        <item>MATAR DRY</item>
+        <item>SOYA BEAN</item>
+        <item>MAKAI MAKKI DANA</item>
+    </string-array>
+
+    <string-array name="sub_list_category_dry_fruit_nut">
+        <item>PISTA ROASTED</item>
+        <item>KAJU BROKEN</item>
+        <item>KAJU WHOLE</item>
+        <item>KAJU TUKDI</item>
+        <item>BADAM SIRIYA KAUMI</item>
+        <item>BADAM CALIFORNIA [ALMOND]</item>
+        <item>BADAM CALIFORNIA [JAMBO]</item>
+        <item>BADAM MAMRA [JAMBO]</item>
+        <item>BADAM MAMRA [NATURE NUTE]</item>
+        <item>KISMIS</item>
+        <item>AKHROT WALNUT</item>
+        <item>AKHROT GIRI [U.P.S]</item>
+        <item>AKHROT GIRI [TIM TIM GOLD]</item>
+        <item>AKHROT GIRI [TIM TIM SILVER]</item>
+        <item>BADAM CUTTING</item>
+        <item>BADAM BURA</item>
+        <item>PISTA CUTTING</item>
+        <item>CHIRONJI</item>
+        <item>KHARAK [YELLOW DATES]</item>
+        <item>NARIYAL GATE</item>
+        <item>NARIYAL BURADA</item>
+    </string-array>
+
+    <string-array name="sub_list_category_chini">
+        <item>GUD NATURAL</item>
+        <item>GUD</item>
+        <item>MISHRI DANA</item>
+        <item>MISHRI DHAGA</item>
+        <item>SUGAR POWDER</item>
+        <item>CHINI [R]</item>
+        <item>CHINI [OD]</item>
+        <item>CHINI [MADUR]</item>
+    </string-array>
+
+    <string-array name="sub_list_category_tea">
+        <item>CHAI [BARIK DANAA]</item>
+        <item>CHAI [MOTI DANAA]</item>
+        <item>CHAI [NO.3]</item>
+    </string-array>
+
+    <string-array name="sub_list_category_spice">
+        <item>LAL MIRCH</item>
+        <item>SABUT LAL MIRCH</item>
+        <item>HALDI</item>
+        <item>HALDI SABUT</item>
+        <item>DHANIA</item>
+        <item>AAKA DHANIA</item>
+        <item>HING SABUT</item>
+        <item>HING</item>
+        <item>HARI ELAICHI</item>
+        <item>ELAICHI DANA</item>
+        <item>BADI ELACHI</item>
+        <item>SOTHA SABUT</item>
+        <item>SOTHA</item>
+        <item>DALCHINI</item>
+        <item>STARFULE</item>
+        <item>GARAM MASALA</item>
+        <item>RAI SABUT</item>
+        <item>METHI DANA</item>
+        <item>KHUS KHUS</item>
+        <item>JAYATRI</item>
+        <item>JAYFAL</item>
+        <item>JEERA</item>
+        <item>SHAHI JEERA</item>
+        <item>KALA JEERA</item>
+        <item>SAUNF HARI</item>
+        <item>SAUNF HARI BARIK</item>
+        <item>WHITE TIL</item>
+        <item>BLACK TIL</item>
+        <item>TEJ PATTA</item>
+        <item>LAUNG</item>
+        <item>KALI MIRCH</item>
+        <item>KALI MIRCH SABUT</item>
+        <item>IMLI SEEDLESS</item>
+        <item>ANARDANA</item>
+        <item>AJWAIN</item>
+        <item>KASURI METHI</item>
+    </string-array>
+
+    <string-array name="sub_list_category_gluten_free">
+        <item>SALVEDA FALI</item>
+        <item>ALU CHIPS</item>
+        <item>ALU CHIPS [YATI]</item>
+        <item>YELLOW PIPE FRIES</item>
+        <item>GOL GAPPA</item>
+    </string-array>
+</resources>
